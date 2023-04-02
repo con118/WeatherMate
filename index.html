@@ -1,1 +1,49 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WeatherMate: Your Personal Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WeatherMate</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Enter a city name" />
+        <button type="submit">Search</button>
+      </form>
+      <div id="search-history">
+        <h2>Search History</h2>
+        <ul id="history-list">
+          <!-- Search history items will be dynamically generated here -->
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div id="current-weather">
+        <!-- Current weather information will be dynamically generated here -->
+      </div>
+      <div id="forecast">
+        <h2>5-Day Forecast</h2>
+        <div class="forecast-item">
+          <!-- Forecast information for day 1 will be dynamically generated here -->
+        </div>
+        <div class="forecast-item">
+          <!-- Forecast information for day 2 will be dynamically generated here -->
+        </div>
+        <div class="forecast-item">
+          <!-- Forecast information for day 3 will be dynamically generated here -->
+        </div>
+        <div class="forecast-item">
+          <!-- Forecast information for day 4 will be dynamically generated here -->
+        </div>
+        <div class="forecast-item">
+          <!-- Forecast information for day 5 will be dynamically generated here -->
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
