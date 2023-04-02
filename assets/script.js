@@ -1,4 +1,4 @@
-const API_KEY = 'your_api_key_here';
+const API_KEY = "a716356f21db4ffb5e92457fbf0c3855";
 const latitude = '37.7749'; // example latitude
 const longitude = '-122.4194'; // example longitude
 const api_url = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`;
