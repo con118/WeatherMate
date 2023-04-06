@@ -26,8 +26,8 @@ The Weather Dashboard is a web application that retrieves weather data for multi
 
 ## Demo
 
-- [Link To The Repository](https://project1)
-- [Link To The Demo Site](https://project1)
+- [Link To The Repository](https://github.com/con118/WeatherMate)
+- [Link To The Demo Site](https://con118.github.io/WeatherMate/)
 
 ## Documentation
 
