@@ -1,51 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>WeatherMate: Your Personal Weather Dashboard</title>
-    <script src="jquery-3.6.3.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>WeatherMate</h1>
-      <form id="search-form">
-        <input type="text" id="search-input" placeholder="Enter a city name" />
-        <button type="submit">Search</button>
-      </form>
-      <div id="search-history">
-        <h2>Search History</h2>
-        <ul id="history-list">
-          <!-- Search history items will be dynamically generated here -->
-        </ul>
-      </div>
-    </header>
-    <main>
-      <div id="current-weather">
-        <!-- Current weather information will be dynamically generated here -->
-      </div>
-      <div id="forecast">
-        <h2>5-Day Forecast</h2>
-        <div class="forecast-item">
-          <!-- Forecast information for day 1 will be dynamically generated here -->
-        </div>
-        <div class="forecast-item">
-          <!-- Forecast information for day 2 will be dynamically generated here -->
-        </div>
-        <div class="forecast-item">
-          <!-- Forecast information for day 3 will be dynamically generated here -->
-        </div>
-        <div class="forecast-item">
-          <!-- Forecast information for day 4 will be dynamically generated here -->
-        </div>
-        <div class="forecast-item">
-          <!-- Forecast information for day 5 will be dynamically generated here -->
-        </div>
-      </div>
-    </main>
-    <script src="script.js"></script>
-  </body>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Link to the CDN for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body>
+  <h1>Weather App</h1>
+  <label for="locationInput">Enter location:</label>
+  <input type="text" id="locationInput">
+  <button id="saveLocation">Save</button>
+  <div id="weather"></div>
+  <div id="forecast"></div>
+  <!-- <div id="day1-temp-wind-humidity"></div>
+  <div id="day4-temp-wind-humidity"></div>
+  <div id="day3-temp-wind-humidity"></div> -->
+  <script src="script.js"></script>
+</body>
 </html>
